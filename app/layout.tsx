@@ -1,4 +1,4 @@
-import { Figtree } from "next/font/google";
+import { Montserrat } from "next/font/google";
 
 import getSongsByUserId from "@/actions/getSongsByUserId";
 import getActiveProductsWithPrices from "@/actions/getActiveProductsWithPrices";
@@ -11,7 +11,7 @@ import Player from "@/components/Player";
 
 import "./globals.css";
 
-const font = Figtree({ subsets: ["latin"] });
+const font = Montserrat({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Melodify",
